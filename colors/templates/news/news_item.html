@@ -1,0 +1,16 @@
+<div class="item">
+<fieldset style="padding:0px;margin-left:0px; border-bottom:0px;border-left:0px;border-right:0px; border-top:1px #cccccc solid;">
+<legend style="margin-left:0px; padding-left:0px;"><span class="itemSection"><{$story.title|regex_replace:"[&nbsp;:&nbsp;.*$]":""}></span></legend>
+<div class="itemHead"><span class="itemTitle"><{$story.title|regex_replace:"[^.*&nbsp;:&nbsp;]":""}></span></div>
+<div class="itemInfo">
+<span class="itemPoster"><{$lang_postedby}> <{$story.poster}></span> <span class="itemPostDate"><{$lang_on}> <{$story.posttime}></span> (<span class="itemStats"><{$story.hits}> <{$lang_reads}></span>)
+</div>
+<div class="itemBody">
+<{$story.imglink}>
+<p class="itemText"><{$story.text}></p>
+</div>
+<div class="itemFoot">
+<span class="itemAdminLink"><{$story.adminlink}></span> <span class="itemPermaLink"><{$story.morelink}></span>
+</div>
+</fieldset>
+</div>

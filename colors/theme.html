@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<{$xoops_langcode}>" lang="<{$xoops_langcode}>">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=<{$xoops_charset}>" />
+<meta http-equiv="content-language" content="<{$xoops_langcode}>" />
+<meta name="robots" content="<{$xoops_meta_robots}>" />
+<meta name="keywords" content="<{$xoops_meta_keywords}>" />
+<meta name="description" content="<{$xoops_meta_description}>" />
+<meta name="rating" content="<{$xoops_meta_rating}>" />
+<meta name="author" content="<{$xoops_meta_author}>" />
+<meta name="copyright" content="<{$xoops_meta_copyright}>" />
+<meta name="generator" content="XOOPS" />
+<title><{$xoops_sitename}> - <{$xoops_pagetitle}></title>
+<link href="<{$xoops_url}>/favicon.ico" rel="SHORTCUT ICON" />
+<link rel="stylesheet" type="text/css" media="all" href="<{$xoops_url}>/xoops.css" />
+<link rel="stylesheet" type="text/css" media="all" href="<{$xoops_themecss}>" />
+<script type="text/javascript">
+<!--
+<{$xoops_js}>
+//-->
+</script>
+</head>
+<body background="<{$xoops_imageurl}>bg_stripe1.gif">
+<table cellspacing="0" class="main" style="margin-top:2px;">
+<tr id="header">
+<td id="headerlogo" height="80">
+<a href="<{$xoops_url}>/">
+<img src="<{$xoops_imageurl}>logo.jpg" alt="<{$xoops_sitename}>" />
+</a>
+</td>
+<td id="headerbanner"><{$xoops_banner}></td> 
+</tr>
+</table>
+<!-- Start Headerbar -->
+<table cellspacing=0 class="main" style="margin-top:2px; margin-bottom:2px; vertical-align:middle;">
+<tr>
+<td id="headerbarL" width="66%" nowrap="nowrap"><div>
+<{if !$xoops_isuser}>
+<form action="<{$xoops_url}>/user.php" method="post">ID
+<input type='text' name='uname' value='username' size=12 onMouseOver="this.focus();" onFocus="if(this.value == 'username') this.value = '';" class='boite'>
+Password
+<input class="boite" type="password" size="8" name="pass"/>
+<input type="hidden" name="op" value="login" /> 
+<input type="submit" class="boutonvert" value="ok" />
+<br />Register for free
+<a href="<{$xoops_url}>/register.php">
+<input type="submit" class="boutonorange" value="here!" /></a>
+</form>
+<{else}>
+<{foreach item=block from=$xoops_lblocks}>
+<{if $block.title == "User Menu"}>
+<{$block.content}>
+<{/if}>
+<{/foreach}>
+<{/if}>
+</div></td>
+<td id="headerbarR" nowrap="nowrap"><div>
+<form action="<{$xoops_url}>/search.php" method="post">
+<input type='text' name='query' value='Search' size=15 onMouseOver="this.focus();" onFocus="if(this.value == 'Search') this.value = '';" class='boite'>
+<input type="hidden" name="action" value="results" /> 
+<input type="submit" class="boutonvert" value="Go!" name="searchSubmit" /><br />
+<a href="<{$xoops_url}>/search.php">Advanced search</a>
+</form>
+</div></td>
+</tr>
+</table>
+<!-- End Headerbar -->
+<table cellspacing="0" class="main">
+<tr>
+<td id="leftcolumn">
+<!-- Start left blocks loop -->
+<{foreach item=block from=$xoops_lblocks}>
+<{if $block.title !="User Menu"}>
+<{include file="colors/theme_blockleft.html"}>
+<{/if}>
+<{/foreach}>
+<!-- Fim do "loop" dos blocos da esquerda -->
+</td>
+<td id="centercolumn">
+<!-- Display center blocks if any -->
+<{if $xoops_showcblock == 1}>
+<table cellspacing="0">
+<tr>
+<td id="centerCcolumn" colspan="2">
+<!-- Start center-center blocks loop -->
+<{foreach item=block from=$xoops_ccblocks}>
+<{include file="colors/theme_blockcenter_c.html"}>
+<{/foreach}>
+<!-- End center-center blocks loop -->
+</td>
+</tr>
+<tr>
+<td id="centerLcolumn">
+<!-- Start center-left blocks loop -->
+<{foreach item=block from=$xoops_clblocks}>
+<{include file="colors/theme_blockcenter_l.html"}>
+<{/foreach}>
+<!-- End center-left blocks loop -->
+</td><td id="centerRcolumn">
+<!-- Start center-right blocks loop -->
+<{foreach item=block from=$xoops_crblocks}>
+<{include file="colors/theme_blockcenter_r.html"}>
+<{/foreach}>
+<!-- End center-right blocks loop -->
+</td>
+</tr>
+</table>
+<{/if}>
+<!-- End display center blocks -->
+<div id="content"><{$xoops_contents}></div>
+</td>
+<{if $xoops_showrblock == 1}>
+<td id="rightcolumn">
+<!-- Início dos blocos da direita -->
+<{foreach item=block from=$xoops_rblocks}>
+<{include file="colors/theme_blockright.html"}>
+<{/foreach}>
+<!-- End right blocks loop -->
+</td>
+<{/if}>
+</tr>
+</table>
+<table cellspacing="0" class="main">
+<tr id="footerbar">
+<td>Copyright &copy; 2003 - <{$xoops_sitename}></td>
+</tr>
+</table>
+</body>
+</HTML>

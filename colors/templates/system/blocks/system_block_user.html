@@ -1,0 +1,19 @@
+Hi <a href="<{$xoops_url}>/user.php"><{$xoops_uname}></a>,
+<{if $block.new_messages > 0}>
+you have
+<a class="highlight" href="<{$xoops_url}>/viewpmsg.php"><{$block.new_messages}> new message(s)</a>
+<{else}>
+you have no new <a href="<{$xoops_url}>/viewpmsg.php">message</a>
+<{/if}>
+<br />
+<a href="<{$xoops_url}>/user.php" style="font-size:90%;">
+Account info
+</a> &middot;
+<a href="<{$xoops_url}>/user.php?op=logout" style="font-size:90%;">
+Logout</a>
+<{if $xoops_isadmin}>
+&middot; 
+<a href="<{$xoops_url}>/admin.php" style="font-size:90%;">
+Xoops admin
+</a>
+<{/if}>

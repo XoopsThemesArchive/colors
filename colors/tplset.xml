@@ -1,0 +1,260 @@
+<?xml version="1.0"?>
+<tplset>
+<name>colors</name>
+<dateCreated>1048220790</dateCreated>
+<credits>
+</credits>
+<generator>XOOPS 2.0 RC3</generator>
+<templates>
+<template name="system_dummy.html">
+<module>system</module>
+<type>module</type>
+<lastModified>1048220790</lastModified>
+</template>
+<template name="system_siteclosed.html">
+<module>system</module>
+<type>module</type>
+<lastModified>1048220790</lastModified>
+</template>
+<template name="system_comments_nest.html">
+<module>system</module>
+<type>module</type>
+<lastModified>1048220790</lastModified>
+</template>
+<template name="system_comments_thread.html">
+<module>system</module>
+<type>module</type>
+<lastModified>1048220790</lastModified>
+</template>
+<template name="system_comments_flat.html">
+<module>system</module>
+<type>module</type>
+<lastModified>1048220790</lastModified>
+</template>
+<template name="system_comment.html">
+<module>system</module>
+<type>module</type>
+<lastModified>1048220790</lastModified>
+</template>
+<template name="system_redirect.html">
+<module>system</module>
+<type>module</type>
+<lastModified>1048220790</lastModified>
+</template>
+<template name="system_rss.html">
+<module>system</module>
+<type>module</type>
+<lastModified>1048220790</lastModified>
+</template>
+<template name="system_userform.html">
+<module>system</module>
+<type>module</type>
+<lastModified>1048220790</lastModified>
+</template>
+<template name="system_userinfo.html">
+<module>system</module>
+<type>module</type>
+<lastModified>1048220790</lastModified>
+</template>
+<template name="system_imagemanager2.html">
+<module>system</module>
+<type>module</type>
+<lastModified>1048220790</lastModified>
+</template>
+<template name="system_imagemanager.html">
+<module>system</module>
+<type>module</type>
+<lastModified>1048220790</lastModified>
+</template>
+<template name="system_block_user.html">
+<module>system</module>
+<type>block</type>
+<lastModified>1048254618</lastModified>
+</template>
+<template name="system_notification_list.html">
+<module>system</module>
+<type>module</type>
+<lastModified>1048220851</lastModified>
+</template>
+<template name="system_notification_select.html">
+<module>system</module>
+<type>module</type>
+<lastModified>1048220858</lastModified>
+</template>
+<template name="system_block_login.html">
+<module>system</module>
+<type>block</type>
+<lastModified>1048220790</lastModified>
+</template>
+<template name="newbb_viewforum.html">
+<module>newbb</module>
+<type>module</type>
+<lastModified>1048220790</lastModified>
+</template>
+<template name="newbb_thread.html">
+<module>newbb</module>
+<type>module</type>
+<lastModified>1048220790</lastModified>
+</template>
+<template name="newbb_searchresults.html">
+<module>newbb</module>
+<type>module</type>
+<lastModified>1048220790</lastModified>
+</template>
+<template name="newbb_search.html">
+<module>newbb</module>
+<type>module</type>
+<lastModified>1048220790</lastModified>
+</template>
+<template name="newbb_index.html">
+<module>newbb</module>
+<type>module</type>
+<lastModified>1048220790</lastModified>
+</template>
+<template name="newbb_viewtopic_flat.html">
+<module>newbb</module>
+<type>module</type>
+<lastModified>1048220790</lastModified>
+</template>
+<template name="newbb_viewtopic_thread.html">
+<module>newbb</module>
+<type>module</type>
+<lastModified>1048220790</lastModified>
+</template>
+<template name="system_block_search.html">
+<module>system</module>
+<type>block</type>
+<lastModified>1048220790</lastModified>
+</template>
+<template name="xoopsmembers_searchform.html">
+<module>xoopsmembers</module>
+<type>module</type>
+<lastModified>1048220790</lastModified>
+</template>
+<template name="xoopsmembers_searchresults.html">
+<module>xoopsmembers</module>
+<type>module</type>
+<lastModified>1048220790</lastModified>
+</template>
+<template name="news_archive.html">
+<module>news</module>
+<type>module</type>
+<lastModified>1048220790</lastModified>
+</template>
+<template name="news_article.html">
+<module>news</module>
+<type>module</type>
+<lastModified>1048220790</lastModified>
+</template>
+<template name="news_index.html">
+<module>news</module>
+<type>module</type>
+<lastModified>1048220790</lastModified>
+</template>
+<template name="news_item.html">
+<module>news</module>
+<type>module</type>
+<lastModified>1048262868</lastModified>
+</template>
+<template name="system_block_waiting.html">
+<module>system</module>
+<type>block</type>
+<lastModified>1048220790</lastModified>
+</template>
+<template name="system_block_mainmenu.html">
+<module>system</module>
+<type>block</type>
+<lastModified>1048220790</lastModified>
+</template>
+<template name="xoopsheadlines_feed.html">
+<module>xoopsheadlines</module>
+<type>module</type>
+<lastModified>1048220886</lastModified>
+</template>
+<template name="xoopsheadlines_index.html">
+<module>xoopsheadlines</module>
+<type>module</type>
+<lastModified>1048220893</lastModified>
+</template>
+<template name="system_block_siteinfo.html">
+<module>system</module>
+<type>block</type>
+<lastModified>1048220790</lastModified>
+</template>
+<template name="system_block_online.html">
+<module>system</module>
+<type>block</type>
+<lastModified>1048254407</lastModified>
+</template>
+<template name="system_block_topusers.html">
+<module>system</module>
+<type>block</type>
+<lastModified>1048220790</lastModified>
+</template>
+<template name="system_block_newusers.html">
+<module>system</module>
+<type>block</type>
+<lastModified>1048220790</lastModified>
+</template>
+<template name="system_block_comments.html">
+<module>system</module>
+<type>block</type>
+<lastModified>1048220790</lastModified>
+</template>
+<template name="system_block_notification.html">
+<module>system</module>
+<type>block</type>
+<lastModified>1048220842</lastModified>
+</template>
+<template name="system_block_themes.html">
+<module>system</module>
+<type>block</type>
+<lastModified>1048220866</lastModified>
+</template>
+<template name="newbb_block_new.html">
+<module>newbb</module>
+<type>block</type>
+<lastModified>1048220790</lastModified>
+</template>
+<template name="newbb_block_top.html">
+<module>newbb</module>
+<type>block</type>
+<lastModified>1048220790</lastModified>
+</template>
+<template name="newbb_block_active.html">
+<module>newbb</module>
+<type>block</type>
+<lastModified>1048220790</lastModified>
+</template>
+<template name="newbb_block_prv.html">
+<module>newbb</module>
+<type>block</type>
+<lastModified>1048220819</lastModified>
+</template>
+<template name="news_block_topics.html">
+<module>news</module>
+<type>block</type>
+<lastModified>1048220790</lastModified>
+</template>
+<template name="news_block_bigstory.html">
+<module>news</module>
+<type>block</type>
+<lastModified>1048269446</lastModified>
+</template>
+<template name="news_block_top.html">
+<module>news</module>
+<type>block</type>
+<lastModified>1048220790</lastModified>
+</template>
+<template name="news_block_new.html">
+<module>news</module>
+<type>block</type>
+<lastModified>1048220790</lastModified>
+</template>
+<template name="xoopsheadlines_block_rss.html">
+<module>xoopsheadlines</module>
+<type>block</type>
+<lastModified>1048220899</lastModified>
+</template>
+</templates>
+</tplset>
